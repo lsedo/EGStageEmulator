@@ -1,0 +1,50 @@
+[
+    {
+      "Identifier": "Stage1",
+      "Next": "Stage2",
+      "Prev": null,
+      "Position": {
+        "X": 1,
+        "Y": 2,
+        "Z": 3
+      },
+      "Rotation": {
+        "Pitch": 45,
+        "Yaw": 90,
+        "Roll": 0
+      },
+      "Temperature": 25.5
+    },
+    {
+      "Identifier": "Stage2",
+      "Next": "Stage3",
+      "Prev": "Stage1",
+      "Position": {
+        "X": 2,
+        "Y": 3,
+        "Z": 4
+      },
+      "Rotation": {
+        "Pitch": 60,
+        "Yaw": 120,
+        "Roll": 10
+      },
+      "Temperature": 30
+    },
+    {
+      "Identifier": "Stage3",
+      "Next": null,
+      "Prev": "Stage2",
+      "Position": {
+        "X": 3,
+        "Y": 4,
+        "Z": 5
+      },
+      "Rotation": {
+        "Pitch": 75,
+        "Yaw": 150,
+        "Roll": 20
+      },
+      "Temperature": 35.5
+    }
+  ]
